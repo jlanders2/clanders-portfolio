@@ -1,0 +1,1 @@
+Basic Next.js application with, es-lint, prettier, and tailwind configured

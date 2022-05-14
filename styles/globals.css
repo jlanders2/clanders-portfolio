@@ -2,16 +2,19 @@
 
 @layer base {
   h1 {
-    @apply text-2xl;
+    @apply text-8xl;
   }
   h2 {
-    @apply text-xl;
+    @apply text-5xl;
   }
   h3 {
-    @apply text-lg;
+    @apply text-3xl;
   }
-  a {
-    @apply text-blue-600 underline;
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
   }
 }
 
@@ -24,12 +27,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: black;
-  color: #F9F3F0;
+  color: #160D08;
 }
 
 a {
-  color: inherit;
+  color: #638475;
   text-decoration: none;
 }
 
@@ -37,6 +39,56 @@ a {
   box-sizing: border-box;
 }
 
-.my-name {
-  color: #BC2C1A;
+
+.bg-clanders-accent {
+  background-color: #638475;
+}
+
+.bg-clanders-black {
+  background-color: #160D08;
+}
+
+.bg-clanders-white {
+  background-color: #E4DFDA;
+}
+
+.nav-text:hover {
+  color: #638475;
+  cursor: pointer;
+}
+
+.clanders-accent {
+  color: #638475;
+}
+
+.clanders-black {
+  color: #160D08;
+}
+
+.clanders-white {
+  color: #E4DFDA;
+}
+
+.projects-button {
+  border-radius: 1rem;
+}
+
+.projects-button:hover {
+  background-color: #E4DFDA;
+  color: #638475;
+  outline: #160D08 2px solid;
+}
+
+.nav-terminal {
+  outline: #160D08 2px solid;
+  caret-color: #638475;
+  padding-left: 20px;
+  background-color: #E4DFDA;
+}
+
+.terminal-icon {
+  color: #638475;
+  font-weight: bold;
+  position: relative;
+  left: 15px;
 }

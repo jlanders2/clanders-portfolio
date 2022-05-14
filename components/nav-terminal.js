@@ -1,21 +1,21 @@
+import { useState } from 'react';
+
 export default function NavTerminal() {
-  let command = '';
+  let [command, setCommand] = useState();
+
+  const handleCommand = async event => {
+    if (event.keyCode == 13) {
+      setCommand(event.target.value);
+    }
+  };
+
   return (
     <>
       <input
-        onKeyDown={readText.bind(this)}
-        className="nav-terminal w-96 h-7"
+        onKeyDown={handleCommand}
+        className="nav-terminal w-full h-7"
+        placeholder="try something like -> cd projects"
       />
-      <div>{command}</div>
     </>
   );
 }
-
-const readText = event => {
-  if (event.keyCode == 13) {
-    // do something with event.target.value;
-    this.command = event.target.value;
-  }
-};
-
-// this shit isn't completely right but im tired af

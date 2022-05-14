@@ -27,11 +27,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: #160D08;
+  color: #E4DFDA;
 }
 
 a {
-  color: #638475;
+  color: #3C896D;
   text-decoration: none;
 }
 
@@ -41,11 +41,11 @@ a {
 
 
 .bg-clanders-accent {
-  background-color: #638475;
+  background-color: #3C896D;
 }
 
 .bg-clanders-black {
-  background-color: #160D08;
+  background-color: #000807;
 }
 
 .bg-clanders-white {
@@ -53,16 +53,16 @@ a {
 }
 
 .nav-text:hover {
-  color: #638475;
+  color: #3C896D;
   cursor: pointer;
 }
 
 .clanders-accent {
-  color: #638475;
+  color: #3C896D;
 }
 
 .clanders-black {
-  color: #160D08;
+  color: #000807;
 }
 
 .clanders-white {
@@ -75,20 +75,29 @@ a {
 
 .projects-button:hover {
   background-color: #E4DFDA;
-  color: #638475;
-  outline: #160D08 2px solid;
+  color: #3C896D;
+  outline: #000807 2px solid;
 }
 
 .nav-terminal {
-  outline: #160D08 2px solid;
-  caret-color: #638475;
+  outline: #E4DFDA 2px solid;
+  caret-color: #3C896D;
   padding-left: 20px;
-  background-color: #E4DFDA;
+  background-color: #000807;
 }
 
 .terminal-icon {
-  color: #638475;
+  color: #3C896D;
   font-weight: bold;
   position: relative;
   left: 15px;
+}
+
+
+.title {
+  font-family: 'American Typewriter';
+}
+
+.line {
+  border-bottom: 10px solid #3C896D;
 }
